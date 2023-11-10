@@ -1,0 +1,420 @@
+/* Styles for the redesigned home page focusing on Computer Science */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#computerScience {
+    margin: 20px 0;
+}
+
+.overview {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.uses, .futureScope, .advantages, .meaning, .impact, .features {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.uses:hover, .futureScope:hover, .advantages:hover, .meaning:hover, .impact:hover, .features:hover {
+    transform: translateY(-5px);
+}
+
+.uses h3, .futureScope h3, .advantages h3, .meaning h3, .impact h3, .features h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.uses ul, .futureScope ul, .advantages ul, .impact ul, .features ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.uses li, .futureScope li, .advantages li, .impact li, .features li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.meaning {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.computerDesign {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.computerDesign:hover {
+    transform: translateY(-5px);
+}
+
+.computerDesign h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.computerDesign p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+/* Styles for the categories page matching the home page */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+}
+
+.category h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 20px 15px;
+}
+
+
+/* About Section Styles */
+/* Styles for the redesigned About page */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#about {
+    margin: 20px 0;
+}
+
+.about-content {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.team, .mission, .vision, .values {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team:hover, .mission:hover, .vision:hover, .values:hover {
+    transform: translateY(-5px);
+}
+
+.team h3, .mission h3, .vision h3, .values h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.team p, .mission p, .vision p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.values ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.values li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+/* Styles for the redesigned Contact Us page */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#contact {
+    margin: 20px 0;
+}
+
+.contact-info, .contact-form, .contact-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-info:hover, .contact-form:hover, .contact-details:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info h2, .contact-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .contact-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact-form form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
